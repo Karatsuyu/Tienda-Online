@@ -16,7 +16,7 @@ import { productsAPI } from '@/lib/api';
 
 async function getProducts() {
   try {
-    const products = await productsAPI.getAll(0, 16);
+    const products = await productsAPI.getAll(0, 50);
     return Array.isArray(products) ? products : [];
   } catch (error) {
     console.error('Error fetching products:', error);
@@ -27,7 +27,7 @@ async function getProducts() {
 export default async function Home() {
   const allProducts: any[] = await getProducts();
   const topDeals = allProducts.slice(0, 8);
-  const recommended = allProducts.slice(8, 16);
+  const recommended = allProducts.slice(8, 48);
 
   return (
     <div className="space-y-12">
@@ -156,7 +156,7 @@ export default async function Home() {
             Recomendado para Ti
           </h2>
           
-          {/* Carrusel de Categorías */}
+          {/* Carrusel de Categorías - Bidireccional */}
           <div className="mb-12">
             <Carousel
               opts={{
@@ -167,22 +167,22 @@ export default async function Home() {
             >
               <CarouselContent className="gap-3">
                 {categories.map((category) => (
-                  <CarouselItem key={category.id} className="basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 xl:basis-1/6">
+                  <CarouselItem key={category.id} className="basis-auto">
                     <Link href={`/category/${category.slug}`}>
-                      <button className="w-full px-4 py-2 rounded-full border-2 border-gray-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-200 font-body text-sm font-medium whitespace-nowrap">
+                      <button className="px-6 py-2 rounded-full border-2 border-gray-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-200 font-body text-sm font-medium whitespace-nowrap">
                         {category.name}
                       </button>
                     </Link>
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="hidden md:flex -left-12" />
-              <CarouselNext className="hidden md:flex -right-12" />
+              <CarouselPrevious className="absolute -left-12 top-1/2 -translate-y-1/2 hidden md:flex" />
+              <CarouselNext className="absolute -right-12 top-1/2 -translate-y-1/2 hidden md:flex" />
             </Carousel>
           </div>
 
-          {/* Grid de Productos */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-4 gap-4 md:gap-6">
+          {/* Grid de Productos - 5 columnas */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
             {recommended.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
