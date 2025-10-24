@@ -152,9 +152,36 @@ export default async function Home() {
         </section>
 
         <section className="py-8 bg-secondary -mx-4 px-4 rounded-lg">
-          <h2 className="text-3xl font-headline font-bold text-center mb-8">
+          <h2 className="text-3xl font-headline font-bold text-center mb-12">
             Recomendado para Ti
           </h2>
+          
+          {/* Carrusel de Categorías */}
+          <div className="mb-12">
+            <Carousel
+              opts={{
+                align: 'start',
+                loop: false,
+              }}
+              className="w-full"
+            >
+              <CarouselContent className="gap-3">
+                {categories.map((category) => (
+                  <CarouselItem key={category.id} className="basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 xl:basis-1/6">
+                    <Link href={`/category/${category.slug}`}>
+                      <button className="w-full px-4 py-2 rounded-full border-2 border-gray-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-200 font-body text-sm font-medium whitespace-nowrap">
+                        {category.name}
+                      </button>
+                    </Link>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="hidden md:flex -left-12" />
+              <CarouselNext className="hidden md:flex -right-12" />
+            </Carousel>
+          </div>
+
+          {/* Grid de Productos */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-4 gap-4 md:gap-6">
             {recommended.map((product) => (
               <ProductCard key={product.id} product={product} />
