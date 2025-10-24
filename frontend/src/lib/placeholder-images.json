@@ -1,0 +1,129 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero1",
+      "imageUrl": "https://images.unsplash.com/photo-1583316174775-bd6dc0e9f298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmYXNoaW9uJTIwc2FsZXxlbnwwfHx8fDE3NTkzNDQyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion sale"
+    },
+    {
+      "id": "hero2",
+      "imageUrl": "https://images.unsplash.com/photo-1717295248358-4b8f2c8989d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlbGVjdHJvbmljcyUyMGdhZGdldHxlbnwwfHx8fDE3NTkyNzk2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electronics gadget"
+    },
+    {
+      "id": "hero3",
+      "imageUrl": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxob21lJTIwZGVjb3J8ZW58MHx8fHwxNzU5MzAzNzk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home decor"
+    },
+    {
+      "id": "cat1",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbnMlMjBmYXNoaW9ufGVufDB8fHx8MTc1OTI2MDYxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "womens fashion"
+    },
+    {
+      "id": "cat2",
+      "imageUrl": "https://images.unsplash.com/photo-1556908450-60aec6018662?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxob21lJTIwa2l0Y2hlbnxlbnwwfHx8fDE3NTkzNTc4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home kitchen"
+    },
+    {
+      "id": "cat3",
+      "imageUrl": "https://images.unsplash.com/photo-1717295248521-4c1f2b6bcd6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlbGVjdHJvbmljcyUyMGdhZGdldHxlbnwwfHx8fDE3NTkyNzk2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electronics gadget"
+    },
+    {
+      "id": "cat4",
+      "imageUrl": "https://images.unsplash.com/photo-1696527007652-e3a0872b44c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0b3lzJTIwZ2FtZXN8ZW58MHx8fHwxNzU5MzU3ODUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "toys games"
+    },
+    {
+      "id": "cat5",
+      "imageUrl": "https://images.unsplash.com/photo-1620905985509-dbe622825dec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiZWF1dHklMjBoZWFsdGh8ZW58MHx8fHwxNzU5MzU3ODUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beauty health"
+    },
+    {
+      "id": "cat6",
+      "imageUrl": "https://images.unsplash.com/photo-1686435171260-3bff2e93ec59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcG9ydHMlMjBvdXRkb29yc3xlbnwwfHx8fDE3NTkzNTc4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sports outdoors"
+    },
+    {
+      "id": "prod1",
+      "imageUrl": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWFydCUyMHdhdGNofGVufDB8fHx8MTc1OTI5MTY5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart watch"
+    },
+    {
+      "id": "prod2",
+      "imageUrl": "https://images.unsplash.com/photo-1491927570842-0261e477d937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2lyZWxlc3MlMjBoZWFkcGhvbmVzfGVufDB8fHx8MTc1OTMyODkyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wireless headphones"
+    },
+    {
+      "id": "prod3",
+      "imageUrl": "https://images.unsplash.com/photo-1581269630962-c22125598f4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8a2l0Y2hlbiUyMGJsZW5kZXJ8ZW58MHx8fHwxNzU5MjkwMzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen blender"
+    },
+    {
+      "id": "prod4",
+      "imageUrl": "https://images.unsplash.com/photo-1581888748626-2a3f240a6f9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cnVubmluZyUyMHNob2VzfGVufDB8fHx8MTc1OTM0MTExOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "running shoes"
+    },
+    {
+      "id": "prod5",
+      "imageUrl": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxza2luY2FyZSUyMHNldHxlbnwwfHx8fDE3NTkzNDYwOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skincare set"
+    },
+    {
+      "id": "prod6",
+      "imageUrl": "https://images.unsplash.com/photo-1637157216470-d92cd2edb2e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx5b2dhJTIwbWF0fGVufDB8fHx8MTc1OTI2NjA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yoga mat"
+    },
+    {
+      "id": "prod7",
+      "imageUrl": "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkcm9uZSUyMGNhbWVyYXxlbnwwfHx8fDE3NTkzMzAwNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "drone camera"
+    },
+    {
+      "id": "prod8",
+      "imageUrl": "https://images.unsplash.com/photo-1569397592157-3ef5ee016cf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsZWF0aGVyJTIwYmFja3BhY2t8ZW58MHx8fHwxNzU5MjgxMDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather backpack"
+    },
+    {
+      "id": "prod9",
+      "imageUrl": "https://images.unsplash.com/photo-1510074468346-504b4d8a8630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkZXNrJTIwbGFtcHxlbnwwfHx8fDE3NTkzMjMwNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk lamp"
+    },
+    {
+      "id": "prod10",
+      "imageUrl": "https://images.unsplash.com/photo-1628832307345-7404b47f1751?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb3VzZXxlbnwwfHx8fDE3NTkyMzEwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gaming mouse"
+    },
+    {
+      "id": "prod11",
+      "imageUrl": "https://images.unsplash.com/photo-1707241358597-bafcc8a8e73d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBtYWtlcnxlbnwwfHx8fDE3NTkzNTc4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee maker"
+    },
+    {
+      "id": "prod12",
+      "imageUrl": "https://images.unsplash.com/photo-1681147768258-d869869d2d97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdW5nbGFzc2VzJTIwZmFzaGlvbnxlbnwwfHx8fDE3NTkzNTA4NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sunglasses fashion"
+    },
+    {
+      "id": "prod13",
+      "imageUrl": "https://images.unsplash.com/photo-1643901102317-b430b45e4cce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb3J0YWJsZSUyMHNwZWFrZXJ8ZW58MHx8fHwxNzU5MjY2MDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portable speaker"
+    },
+    {
+      "id": "prod14",
+      "imageUrl": "https://images.unsplash.com/photo-1559591937-abc5678da6ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlbGVjdHJpYyUyMHRvb3RoYnJ1c2h8ZW58MHx8fHwxNzU5MzA4MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electric toothbrush"
+    },
+    {
+      "id": "prod15",
+      "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXRlciUyMGJvdHRsZXxlbnwwfHx8fDE3NTkzMjY5NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water bottle"
+    },
+    {
+      "id": "prod16",
+      "imageUrl": "https://images.unsplash.com/photo-1605515531924-3b350eac4075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxub3ZlbCUyMGJvb2t8ZW58MHx8fHwxNzU5MzU3ODUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "novel book"
+    }
+  ]
+}
